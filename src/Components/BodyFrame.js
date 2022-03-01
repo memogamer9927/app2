@@ -1,6 +1,8 @@
+import ContenedorCartaTabla from './ContenedorCartaTabla';
 const BodyFrame = () => {
     return (
         <div>
+            <ContenedorCartaTabla/>
         </div>
     );
 }
