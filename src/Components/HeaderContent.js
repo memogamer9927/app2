@@ -1,12 +1,24 @@
+import { Container, Row, Col } from 'react-bootstrap';
 import NavBar from "./NavBar"
 import ProfileBar from "./ProfileBar"
 
 const HeaderContent = () => {
     return (
-        <div>
-            <NavBar/>
-            <ProfileBar/>
-        </div>
+        <Container fluid id='menu'>
+            <Row>
+                <Col sm>
+                    <div >
+                        Terminal de reclutamiento
+                    </div>
+                </Col>
+                <Col sm>
+                    <NavBar/>
+                </Col>
+                <Col sm>
+                    <ProfileBar/>
+                </Col>
+            </Row>
+        </Container>
     );
 }
 
