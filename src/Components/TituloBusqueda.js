@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PageName from './PageName'
 
 
-const HeaderContent = () => {
+const TituloBusqueda = () => {
     return (
         <Container fluid >
             <Row>
@@ -27,4 +27,4 @@ const HeaderContent = () => {
     );
 }
 
-export default HeaderContent;
+export default TituloBusqueda;
